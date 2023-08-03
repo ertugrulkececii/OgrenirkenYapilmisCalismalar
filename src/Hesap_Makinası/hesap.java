@@ -1,4 +1,4 @@
-package Hesap_Makinası;
+package BasitGiderHesaplama;
 
 import java.util.Scanner;
 
