@@ -33,8 +33,8 @@ public class C01_ConstructorCall {
 
     public static void main(String[] args) {
         C01_ConstructorCall obj1 = new C01_ConstructorCall("Merhaba Televole");
-        // new C01_ConstructorCall(4);  // constructor
-        // C01_ConstructorCall(4); // method
+         new C01_ConstructorCall(4);  // constructor
+         C01_ConstructorCall(4); // method
     }
 
 }
