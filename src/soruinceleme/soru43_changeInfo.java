@@ -32,7 +32,8 @@ public class soru43_changeInfo {
             //int yas= 33;
             // System.out.println(ogrenci1);
             // System.out.println("");
-//
+
+            //
             // changeName(ogrenci1);
             // System.out.println(ogrenci1);
             // System.out.println("");
