@@ -16,7 +16,17 @@ public class C01_StringBuilderOlusturma {
 
         StringBuilder sb3= new StringBuilder(9);
         System.out.println(sb3); //
-        System.out.println(sb3.length()); //
-        System.out.println(sb3.capacity());//
+        System.out.println(sb3.length()); //0
+        System.out.println(sb3.capacity());//9 karakterlik
+
+        sb3.append("Java Candir.");
+        System.out.println(sb3); //Java Candir
+        System.out.println(sb3.length()); //12
+        System.out.println(sb3.capacity());//20
+
+        sb3.trimToSize();
+        System.out.println(sb3); //Java Candir.
+        System.out.println(sb3.length()); //12
+        System.out.println(sb3.capacity());//12
     }
 }
