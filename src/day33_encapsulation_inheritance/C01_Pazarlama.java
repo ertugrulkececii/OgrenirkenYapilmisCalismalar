@@ -24,7 +24,7 @@ public class C01_Pazarlama {
         this.satis = satis;
         toplamSatisaEkle();
     }
-    private void toplamSatisaEkle(){
+  public void toplamSatisaEkle(){
         toplamSatis += satis;
     }
 }
