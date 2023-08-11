@@ -2,11 +2,11 @@ package day35_inheritance;
 
 public class Araba {
     Araba(){
-        System.out.println("Araba parametresiz constracter calisti");
+        System.out.println("Araba parametresiz constructor calisti");
     }
-    String marka= "Marka belirtilmadi";
-    String yakit="Yakit turu belirtilmedi";
-    int yil= 1900;
-    String renk = "Renk belirtilmedi";
-    String uretimYeri="Uretim yeri belirtilmedi";
+    String marka = "Marka belirtilmedi";
+    public String yakit="yakit turu belirtilmedi";
+    public int yil=1900;
+    public String renk = "Renk Belirtilmedi";
+    String uretimYeri = "Uretim yeri belirtilmedi";
 }
