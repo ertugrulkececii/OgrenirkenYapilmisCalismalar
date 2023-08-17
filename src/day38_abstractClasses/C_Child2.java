@@ -1,6 +1,6 @@
 package day38_abstractClasses;
 
-public class C_Child2 extends A_KuralciParent{
+public  class C_Child2 extends A_KuralciParent{
 
     @Override
     public void method3() {
