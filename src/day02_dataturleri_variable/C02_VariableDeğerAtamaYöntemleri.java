@@ -1,6 +1,6 @@
 package day02_dataturleri_variable;
 
-public class VariableDeğerAtamaYöntemleri {
+public class C02_VariableDeğerAtamaYöntemleri {
 
     public static void main(String[] args) {
 
