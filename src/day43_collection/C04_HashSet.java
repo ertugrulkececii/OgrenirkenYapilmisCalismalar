@@ -24,6 +24,19 @@ public class C04_HashSet {
         for (int i = 1; i < 10000; i++) {
             hashSet.add(rnd.nextInt(1000));
         }
+        int hasBit = LocalTime.now().getNano();
 
+        System.out.println("Hash set suresi : " + (hasBit - hasBas));
+        //System.out.println(hashSet);
+
+
+        int treeBas = LocalTime.now().getNano();
+        for (int i = 1; i <= 100000; i++) {
+
+            treeSet.add(rnd.nextInt(1000));
+        }
+        int treeBit = LocalTime.now().getNano();
+        System.out.println("Tree set suresi : " + (treeBit - treeBas));
+        //System.out.println(treeSet);
     }
 }
